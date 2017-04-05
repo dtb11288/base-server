@@ -1,0 +1,20 @@
+{
+  "development": {
+    "database": {
+    },
+    "logLevel": "debug",
+    "auth": {
+      "secretKey": "someRandomKey",
+      "publicKey": "getTokenKey",
+      "tokenQuery": "signIn",
+      "expireTime": "1h"
+    },
+    "port": 3000,
+    "ssl": {
+      "enable": false,
+      "key": "./ssl/key.pem",
+      "cert": "./ssl/cert.pem"
+    }
+  },
+  "production": {}
+}
